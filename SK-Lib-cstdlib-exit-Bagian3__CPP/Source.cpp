@@ -2,6 +2,12 @@
 #include <cstdlib>
 #include <conio.h>
 
+/*
+    Source by CPPReference (https://en.cppreference.com)
+    Modified For Learn by RK
+    I.D.E : VS2022
+*/
+
 struct Static {
     ~Static() {
         std::cout << "Static destructor\n";
